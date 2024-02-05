@@ -7,8 +7,8 @@ func _physics_process(delta):
 	velocity = direction * speed
 	
 	if velocity.length() > 0.0:
-		get_node("HappyBoo").play_walk_animation()	# 播放行走动画
+		%HappyBoo.play_walk_animation()	# 播放行走动画
 	else:
-		get_node("HappyBoo").play_idle_animation()	# 待机状态
+		%HappyBoo.play_idle_animation()	# 待机状态
 	
 	move_and_slide()
