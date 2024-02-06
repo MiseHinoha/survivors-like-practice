@@ -1,12 +1,35 @@
-[gd_scene load_steps=2 format=3 uid="uid://bp5arsox3i55o"]
+[gd_scene load_steps=3 format=3 uid="uid://bp5arsox3i55o"]
 
 [ext_resource type="PackedScene" uid="uid://gyy22lwwmn67" path="res://player.tscn" id="1_igpne"]
+[ext_resource type="PackedScene" uid="uid://drn04lix5eamb" path="res://tree.tscn" id="2_ox804"]
 
 [node name="Game" type="Node2D"]
+y_sort_enabled = true
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 1920.0
 offset_bottom = 1080.0
 
 [node name="Player" parent="." instance=ExtResource("1_igpne")]
-position = Vector2(583, 442)
+position = Vector2(1078, 504)
+
+[node name="Tree" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(1385, 300)
+
+[node name="Tree2" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(762, 702)
+
+[node name="Tree3" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(191, 291)
+
+[node name="Tree4" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(389, 828)
+
+[node name="Tree5" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(1527, 252)
+
+[node name="Tree6" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(1461, 215)
+
+[node name="Tree7" parent="." instance=ExtResource("2_ox804")]
+position = Vector2(1571, 854)

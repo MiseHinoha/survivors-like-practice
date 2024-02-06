@@ -1,9 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1707145978
+::res://::1707177821
 default_bus_layout.tres::AudioBusLayout::6564268947468103023::1707145911::0::1::::<><>::
 icon.png::CompressedTexture2D::621515402784007901::1707145911::1707145911::1::::<><>::
-player.gd::GDScript::-1::1707145911::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::472184988340225202::1707145911::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn
+player.gd::GDScript::-1::1707146226::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::472184988340225202::1707146236::0::1::::<><>::res://player.gd<>uid://pbmyh1qru7p::::res://characters/happy_boo/happy_boo.tscn
+survivors_game.tscn::PackedScene::3501215997512110050::1707146564::0::1::::<><>::uid://gyy22lwwmn67::::res://player.tscn
+tree.tscn::PackedScene::8380879607771583737::1707146774::0::1::::<><>::uid://caqfk2xng5v5u::::res://trees/pine_tree.png
 ::res://addons/::1707145911
 ::res://addons/colorpicker_presets/::1707145911
 colorpicker_presets.gd::GDScript::-1::1707145911::0::1::::<>EditorPlugin<>::
