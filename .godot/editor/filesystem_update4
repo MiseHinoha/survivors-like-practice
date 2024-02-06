@@ -1,8 +1,9 @@
-res://tree.tscn
-res://survivors_game.tscn
 res://player.tscn
+res://survivors_game.tscn
+res://tree.tscn
 res://mob.tscn
-res://mob.gd
-res://characters/slime/slime.tscn
 res://gun.tscn
+res://Bullet.gd
+res://bullet.tscn
 res://gun.gd
+res://mob.gd
