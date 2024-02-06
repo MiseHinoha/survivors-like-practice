@@ -1,3 +1,6 @@
 res://tree.tscn
 res://survivors_game.tscn
 res://player.tscn
+res://mob.tscn
+res://mob.gd
+res://characters/slime/slime.tscn
