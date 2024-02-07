@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed = 300.0
-@export var max_health = 5
+@export var max_health = 5.0
 
 @onready var player = get_node("/root/Game/Player")	# onready等同于放进ready函数中
 
@@ -14,7 +14,7 @@ func _physics_process(delta):
 	move_and_slide()
 
 func take_damage():
-	max_health -= 1
+	max_health -= 1.0
 	%Slime.play_hurt()
 	
 	# 判断角色血量
