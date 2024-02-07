@@ -24,6 +24,15 @@ offset_bottom = 1080.0
 [node name="Player" parent="." instance=ExtResource("1_igpne")]
 position = Vector2(1078, 504)
 
+[node name="Path2D" type="Path2D" parent="Player"]
+position = Vector2(-1078, -504)
+curve = SubResource("Curve2D_v1nws")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Player/Path2D"]
+unique_name_in_owner = true
+position = Vector2(-104, -106)
+rotation = -0.00136612
+
 [node name="Tree" parent="." instance=ExtResource("2_ox804")]
 position = Vector2(1385, 300)
 
@@ -45,10 +54,8 @@ position = Vector2(1461, 215)
 [node name="Tree7" parent="." instance=ExtResource("2_ox804")]
 position = Vector2(1571, 854)
 
-[node name="Path2D" type="Path2D" parent="."]
-curve = SubResource("Curve2D_v1nws")
-
-[node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
+[node name="SpawnMobsTimer" type="Timer" parent="."]
 unique_name_in_owner = true
-position = Vector2(-104, -106)
-rotation = -0.00136612
+autostart = true
+
+[connection signal="timeout" from="SpawnMobsTimer" to="." method="_on_spawn_mobs_timer_timeout"]
