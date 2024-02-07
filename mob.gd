@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 @export var speed = 300.0
-@export var max_health = 5.0
+@export var max_health = 3.0
 
 @onready var player = get_node("/root/Game/Player")	# onready等同于放进ready函数中
 
