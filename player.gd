@@ -4,7 +4,7 @@ signal healt_depleted
 
 @export var speed = 600.0	# 移动速度
 var health = 100.0	# 初始生命值
-const DAMAGE_RATE = 5.0	# 伤害，这里正常来说该置成怪物的击力而不是玩家每一秒收到的伤害
+const DAMAGE_RATE = 50.0	# 伤害，这里正常来说该置成怪物的击力而不是玩家每一秒收到的伤害
 
 func _physics_process(delta):
 	var direction = Input.get_vector("move_left","move_right","move_up","move_down")
